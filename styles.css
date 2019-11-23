@@ -1,0 +1,56 @@
+h1 {
+  text-align: center;
+}
+.celda {
+  width: 68px;
+  height: 68px;
+  border: 1px black solid;
+  float: left;
+}
+.fila {
+  clear: both;
+}
+#container-tablero {
+  width: 545px;
+  height: 550px;
+  float: left;
+}
+.celda.blanco {
+  background-color: white;
+}
+.celda.negro {
+  background-color: #ff6500;
+}
+.celda img {
+ width: 65px;
+ margin: auto;
+}
+#pieza-en-movimiento {
+  width: 65px;
+  height: 65px;
+  z-index: 9999;
+}
+
+#container-blancas, #container-negras {
+  float: left;
+  width: 118px;
+  height: 550px;
+  margin: 0px 10px;
+  border: 1px solid grey;
+}
+
+#container_button {
+  clear: both;
+  text-align: center;
+}
+
+#container {
+  width: 840px;
+  margin: auto;
+}
+
+.casillaPosible {
+  outline: 4px #0a90fa solid;
+  z-index: 99;
+  position: relative;
+}
